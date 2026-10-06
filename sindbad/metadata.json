@@ -1,0 +1,6 @@
+{
+  "name": "Sindbad",
+  "description": "Sindbad brand application and design system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

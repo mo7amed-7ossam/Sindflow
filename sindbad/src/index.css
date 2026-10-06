@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-primary: #008DA1;
+    --brand-hover: #007F91;
+    --brand-dark: #006D7C;
+    --brand-soft: #E7F5F7;
+    --brand-accent: #E7B866;
+    --text-primary: #172326;
+    --text-secondary: #647276;
+    --text-tertiary: #8A9799;
+    --bg-page: #F8FAFA;
+    --surface-card: #FFFFFF;
+    --surface-subtle: #F2F5F5;
+    --border-subtle: #E7ECEC;
+  }
+
+  body {
+    background-color: #F8FAFA;
+    color: #172326;
+    font-family: 'IBM Plex Sans Arabic', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-arabic {
+  font-family: 'IBM Plex Sans Arabic', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-latin {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
